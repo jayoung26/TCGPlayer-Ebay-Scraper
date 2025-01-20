@@ -220,14 +220,14 @@ class ScraperFunctions:
         if graded == False:
             text_box = wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="x-refine__group_1__0"]/ul/li[1]/div/a/div/div/div/span[1]')))
             if text_box == "No":
-                graded_filter = wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="x-refine__group_1__0"]/ul/li[2]/div/a/div/span/input')))
+                graded_filter = wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="x-refine__group_1__0"]/ul/li[1]/div/a/div/span/input')))
                 graded_filter.click()
             else:
-                not_graded_filter = wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="x-refine__group_1__0"]/ul/li[1]/div/a/div/span/input')))
+                not_graded_filter = wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="x-refine__group_1__0"]/ul/li[2]/div/a/div/span/input')))
                 not_graded_filter.click()
-                
+
         # Find Listings
-        time.sleep(5)
+        time.sleep(10)
         listings = driver.find_elements(By.CSS_SELECTOR,'#srp-river-results > ul > li.s-item')    
         
         # For each listing, copy date, title, price
