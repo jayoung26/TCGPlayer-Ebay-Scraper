@@ -210,7 +210,7 @@ class ScraperFunctions:
 
         if graded == True:
             text_box = wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="x-refine__group_1__0"]/ul/li[1]/div/a/div/div/div/span[1]')))
-            if text_box == "Yes":
+            if text_box.text == "Yes":
                 not_graded_filter = wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="x-refine__group_1__0"]/ul/li[1]/div/a/div/span/input')))
                 not_graded_filter.click()
             else:
@@ -219,7 +219,7 @@ class ScraperFunctions:
         
         if graded == False:
             text_box = wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="x-refine__group_1__0"]/ul/li[1]/div/a/div/div/div/span[1]')))
-            if text_box == "No":
+            if text_box.text == "No":
                 graded_filter = wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="x-refine__group_1__0"]/ul/li[1]/div/a/div/span/input')))
                 graded_filter.click()
             else:

@@ -1383,3 +1383,134 @@ JavaScript warning: https://pagead2.googlesyndication.com/bg/jQN_tiOKdJuWkTnZn4o
 
 ###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
 
+1737345741932	geckodriver	INFO	Listening on 127.0.0.1:52281
+1737345744948	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52282" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\duran\\AppData\\Local\\Temp\\rust_mozprofiledJ8ThV"
+1737345745338	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:52282
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\duran\\AppData\\Local\\Temp\\rust_mozprofiledJ8ThV\\search.json.mozlz4", (void 0)))
+1737345747393	Marionette	INFO	Listening on port 52312
+DevTools listening on ws://localhost:52282/devtools/browser/3b032cc8-2184-4423-bb4a-22dc5599738c
+Read port: 52312
+1737345747507	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/quicksuggest Signature failed  InvalidSignatureError: Invalid content signature (main/quicksuggest)
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/quicksuggest local data was corrupted
+console.warn: services.settings: main/quicksuggest Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/quicksuggest Signature failed again InvalidSignatureError: Invalid content signature (main/quicksuggest)
+JavaScript error: https://ir.ebaystatic.com/cr/v/c01/radware_stormcaster_v23.js, line 8: TypeError: n.elementFromPoint(...) is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/jQN_tiOKdJuWkTnZn4oDsZoaZomZcjYfSwgPAXYkMcw.js line 2 > eval line 5364 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/jQN_tiOKdJuWkTnZn4oDsZoaZomZcjYfSwgPAXYkMcw.js line 2 > eval line 7331 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://ir.ebaystatic.com/cr/v/c01/ac-011025213736.dweb-old.min.js, line 16: TypeError: e is undefined
+JavaScript error: https://ir.ebaystatic.com/cr/v/c01/ac-011025213736.dweb-old.min.js, line 16: TypeError: e is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.ebay.com"
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1737345755033	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://ir.ebaystatic.com/cr/v/c01/radware_stormcaster_v23.js, line 8: TypeError: t is undefined
+JavaScript error: https://ir.ebaystatic.com/cr/v/c01/radware_stormcaster_v23.js, line 8: TypeError: t is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/jQN_tiOKdJuWkTnZn4oDsZoaZomZcjYfSwgPAXYkMcw.js line 2 > eval line 3297 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/jQN_tiOKdJuWkTnZn4oDsZoaZomZcjYfSwgPAXYkMcw.js line 2 > eval line 3303 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1737345764664	Marionette	INFO	Stopped listening on port 52312
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1737345994492	geckodriver	INFO	Listening on 127.0.0.1:53196
+1737345997525	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53197" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\duran\\AppData\\Local\\Temp\\rust_mozprofile1A3TkO"
+1737345997927	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:53197
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\duran\\AppData\\Local\\Temp\\rust_mozprofile1A3TkO\\search.json.mozlz4", (void 0)))
+1737346000009	Marionette	INFO	Listening on port 53228
+DevTools listening on ws://localhost:53197/devtools/browser/fa32c5a0-c158-4a63-95e6-85f1698788c5
+Read port: 53228
+1737346000082	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/quicksuggest Signature failed  InvalidSignatureError: Invalid content signature (main/quicksuggest)
+console.error: services.settings: 
+  main/quicksuggest local data was corrupted
+console.warn: services.settings: main/quicksuggest Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/quicksuggest Signature failed again InvalidSignatureError: Invalid content signature (main/quicksuggest)
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+JavaScript error: https://ir.ebaystatic.com/cr/v/c01/ac-011025213736.dweb-old.min.js, line 16: TypeError: e is undefined
+JavaScript error: https://ir.ebaystatic.com/cr/v/c01/ac-011025213736.dweb-old.min.js, line 16: TypeError: e is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.ebay.com"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/jQN_tiOKdJuWkTnZn4oDsZoaZomZcjYfSwgPAXYkMcw.js line 2 > eval line 2185 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: https://ir.ebaystatic.com/cr/v/c01/radware_stormcaster_v23.js, line 8: TypeError: t is undefined
+JavaScript error: https://ir.ebaystatic.com/cr/v/c01/radware_stormcaster_v23.js, line 8: TypeError: t is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/jQN_tiOKdJuWkTnZn4oDsZoaZomZcjYfSwgPAXYkMcw.js line 2 > eval line 2895 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1737346012193	Marionette	INFO	Stopped listening on port 53228
+[Parent 19144, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 19144, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
