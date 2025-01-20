@@ -1,0 +1,29 @@
+### Necessary Dictionaries
+
+
+# Pull Rates Dictionary
+pull_rates = {'Scarlet & Violet' : {'Double Rare': 0.1376, 'Ultra Rare': 0.0657, 'Illustration Rare': 0.0767, 'Special Illustration Rare': 0.0315,'Hyper Rare': 0.0185},
+        'Paldea Evolved' : {'Double Rare': 0.1372, 'Ultra Rare': 0.0664, 'Illustration Rare': 0.077, 'Special Illustration Rare': 0.0317,'Hyper Rare': 0.0176}, 
+        'Obsidian Flames' : {'Double Rare': 0.1361, 'Ultra Rare': 0.0663, 'Illustration Rare': 0.076, 'Special Illustration Rare': 0.0313,'Hyper Rare': 0.0192}, 
+        '151' : {'Double Rare': 0.1328, 'Ultra Rare': 0.0644, 'Illustration Rare': 0.085, 'Special Illustration Rare': 0.0311,'Hyper Rare': 0.0194}, 
+        'Paradox Rift' : {'Double Rare': 0.1557, 'Ultra Rare': 0.0664, 'Illustration Rare': 0.077, 'Special Illustration Rare': 0.0211,'Hyper Rare': 0.0122} ,
+        'Paldean Fates' : {'Double Rare' : 0.1589, 'Shiny Rare': 0.2544, 'Shiny Ultra Rare': 0.0772 , 'Ultra Rare': 0.0661 , 'Illustration Rare': 0.0722 , 'Special Illustration Rare': 0.0172 , 'Hyper Rare': 0.0161} ,
+        'Temporal Forces' : {'Double Rare': 0.1683, 'ACE SPEC Rare' : 0.05, 'Ultra Rare' : 0.0667, 'Illustration Rare' : 0.0772, 'Special Illustration Rare' : 0.0117, 'Hyper Rare' : 0.0072},
+        'Twilight Masquerade' : {'Double Rare' : 0.1693, 'ACE SPEC Rare' : 0.0506, 'Ultra Rare' : 0.0661, 'Illustration Rare' : 0.0773, 'Special Illustration Rare' : 0.0117, 'Hyper Rare' : 0.0068}, 
+        'Shrouded Fable' : {'Double Rare' : 0.1667, 'ACE SPEC Rare' : 0.05, 'Ultra Rare' : 0.06667, 'Illustration Rare' : 0.08333, 'Special Illustration Rare' : 0.01493, 'Hyper Rare' : 0.00694}, 
+        'Stellar Crown' : {'Double Rare' : 0.169, 'ACE SPEC Rare' : 0.0494, 'Ultra Rare' : 0.0675, 'Illustration Rare' : 0.0779, 'Special Illustration Rare' : 0.0111, 'Hyper Rare' : 0.0073}, 
+        'Surging Sparks' : {'Double Rare' : 0.1694, 'ACE SPEC Rare' : 0.0503, 'Ultra Rare' : 0.0674, 'Illustration Rare' : 0.0767, 'Special Illustration Rare' : 0.0115, 'Hyper Rare' : 0.0053}}
+
+sets = ['Scarlet & Violet', 'Paldea Evolved', 'Obsidian Flames', '151', 'Paradox Rift' ,'Paldean Fates' ,'Temporal Forces', 'Twilight Masquerade', 'Shrouded Fable', 'Stellar Crown', 'Surging Sparks']
+
+urls = {'Scarlet & Violet' : 'https://www.tcgplayer.com/categories/trading-and-collectible-card-games/pokemon/price-guides/sv01-scarlet-and-violet-base-set',
+        'Paldea Evolved' : 'https://www.tcgplayer.com/categories/trading-and-collectible-card-games/pokemon/price-guides/sv02-paldea-evolved', 
+        'Obsidian Flames' : 'https://www.tcgplayer.com/categories/trading-and-collectible-card-games/pokemon/price-guides/sv03-obsidian-flames', 
+        '151' : 'https://www.tcgplayer.com/categories/trading-and-collectible-card-games/pokemon/price-guides/sv-scarlet-and-violet-151', 
+        'Paradox Rift' : 'https://www.tcgplayer.com/categories/trading-and-collectible-card-games/pokemon/price-guides/sv04-paradox-rift' ,
+        'Paldean Fates' : 'https://www.tcgplayer.com/categories/trading-and-collectible-card-games/pokemon/price-guides/sv-paldean-fates' ,
+        'Temporal Forces' : 'https://www.tcgplayer.com/categories/trading-and-collectible-card-games/pokemon/price-guides/sv05-temporal-forces',
+        'Twilight Masquerade' : 'https://www.tcgplayer.com/categories/trading-and-collectible-card-games/pokemon/price-guides/sv06-twilight-masquerade', 
+        'Shrouded Fable' : 'https://www.tcgplayer.com/categories/trading-and-collectible-card-games/pokemon/price-guides/sv-shrouded-fable' , 
+        'Stellar Crown' : 'https://www.tcgplayer.com/categories/trading-and-collectible-card-games/pokemon/price-guides/sv07-stellar-crown', 
+        'Surging Sparks' : 'https://www.tcgplayer.com/categories/trading-and-collectible-card-games/pokemon/price-guides/sv08-surging-sparks'}
