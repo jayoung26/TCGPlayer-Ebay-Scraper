@@ -234,20 +234,27 @@ class ScraperFunctions:
 
         listing_data = []
         for listing in listings:
-            name = listing.find_element(By.CLASS_NAME, 's-item__title').text
-            price = listing.find_element(By.CLASS_NAME, 's-item__price').text.replace("$","").replace(",", "")
-            date = listing.find_element(By.CLASS_NAME, 's-item__caption').text.replace("Sold", "")
+            try:
+                name = listing.find_element(By.CLASS_NAME, 's-item__title').text
+                price = float(listing.find_element(By.CLASS_NAME, 's-item__price').text.replace("$","").replace(",", ""))
+                date = listing.find_element(By.CLASS_NAME, 's-item__caption').text.replace("Sold", "")
 
-            if "NEW LISTING" in name:
-                name = name.replace("NEW LISTING", "")        
+                if "NEW LISTING" in name:
+                    name = name.replace("NEW LISTING", "")        
+                
+                listing_data.append([name, price, date])
+            except:
+                name = None
+                price = None
+                data = None
+                listing_data.append([name, price, data])
             
-            listing_data.append([name, price, date])
-        
         
         driver.quit()
 
         # Output dataframe of listing data
         ebay_data = pd.DataFrame(listing_data, columns=['Name', 'Price', 'Sold Date'])
+        ebay_data = ebay_data.dropna()
         ebay_data['Price'] = ebay_data['Price'].astype(float)
 
         
