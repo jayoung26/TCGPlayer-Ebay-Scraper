@@ -17,7 +17,7 @@ class ScraperFunctions:
     # Set: Set title that preceeds all sealed product on TCGPlayer
     # Describes the expected probability of positive returns from opening packs at market price
 
-    def singles_sealed_data_frame(url, wait_time, set):
+    def singles_sealed_dataframe(url, wait_time, set):
         # Initialize the WebDriver
         driver = webdriver.Firefox() #driver_path
         driver.get(url)
@@ -135,7 +135,7 @@ class ScraperFunctions:
     # sets_ : list, list of sets
     # Output: pandas dataframe
 
-    def market_data_frame(urls_, wait_time, sets_):
+    def market_dataframe(urls_, wait_time, sets_):
         
         data = []
 
