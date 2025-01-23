@@ -256,6 +256,7 @@ class ScraperFunctions:
         ebay_data = pd.DataFrame(listing_data, columns=['Name', 'Price', 'Sold Date'])
         ebay_data = ebay_data.dropna()
         ebay_data['Price'] = ebay_data['Price'].astype(float)
+        ebay_data['Sold Date'] = pd.to_datetime(ebay_data['Sold Date'], format= ' %b %d, %Y')
 
         
         return ebay_data
