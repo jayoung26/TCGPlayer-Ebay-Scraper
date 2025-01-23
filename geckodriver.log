@@ -2415,3 +2415,58 @@ JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch res
 
 ###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
 
+1737598245176	geckodriver	INFO	Listening on 127.0.0.1:61116
+1737598248208	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61117" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\duran\\AppData\\Local\\Temp\\rust_mozprofileQTQN9d"
+1737598248650	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:61117
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\duran\\AppData\\Local\\Temp\\rust_mozprofileQTQN9d\\search.json.mozlz4", (void 0)))
+1737598251050	Marionette	INFO	Listening on port 61152
+DevTools listening on ws://localhost:61117/devtools/browser/79c44289-ea8a-4a3f-9a7f-fdd921b7c0d6
+Read port: 61152
+1737598251096	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/quicksuggest Signature failed  InvalidSignatureError: Invalid content signature (main/quicksuggest)
+console.error: services.settings: 
+  main/quicksuggest local data was corrupted
+console.warn: services.settings: main/quicksuggest Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/quicksuggest Signature failed again InvalidSignatureError: Invalid content signature (main/quicksuggest)
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+JavaScript error: https://ir.ebaystatic.com/cr/v/c01/ac-011025213736.dweb-old.min.js, line 16: TypeError: e is undefined
+JavaScript error: https://ir.ebaystatic.com/cr/v/c01/ac-011025213736.dweb-old.min.js, line 16: TypeError: e is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.ebay.com"
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/PB10NKlwsoe7CUL7Hlye9bj9xi3uYo4mOObZ_CReQA0.js line 2 > eval line 3276 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1737598271632	Marionette	INFO	Stopped listening on port 61152
+[Parent 18464, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 18464, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 18464, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 18464, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 18464, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+

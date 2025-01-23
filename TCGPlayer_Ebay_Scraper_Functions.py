@@ -208,22 +208,40 @@ class ScraperFunctions:
             sold_listings_filter = wait.until(EC.presence_of_element_located((By.XPATH, '//*[contains(text(), "Sold Items")]')))
             sold_listings_filter.click()
 
-        if graded == True:
-            text_box = wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="x-refine__group_1__0"]/ul/li[1]/div/a/div/div/div/span[1]')))
-            if text_box.text == "Yes":
-                not_graded_filter = wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="x-refine__group_1__0"]/ul/li[2]/div/a/div/span/input')))
+        counter = 1
+        xpath = '/html/body/div[5]/div[3]/ul/li[1]/ul/li[2]/ul/li[{0}]/h3/div'.format(counter)
+        graded_filter_header = wait.until(EC.presence_of_element_located((By.XPATH, xpath)))
+
+        while graded_filter_header.text != "Graded":
+            xpath = '/html/body/div[5]/div[3]/ul/li[1]/ul/li[2]/ul/li[{0}]/h3/div'.format(counter)
+            graded_filter_header = wait.until(EC.presence_of_element_located((By.XPATH, xpath)))
+            if counter > 20:
+                break
+            if graded_filter_header.text == "Graded":
+                break
+            else:
+                counter += 1
+            
+
+        graded_text_box = '//*[@id="x-refine__group_1__{0}"]/ul/li[1]/div/a/div/div/div/span[1]'.format(counter - 1)
+        id_1 = '//*[@id="x-refine__group_1__{0}"]/ul/li[1]/div/a/div/span/input'.format(counter - 1)
+        id_2 = '//*[@id="x-refine__group_1__{0}"]/ul/li[2]/div/a/div/span/input'.format(counter - 1)
+
+
+        text_box = wait.until(EC.presence_of_element_located((By.XPATH, graded_text_box)))
+        if text_box.text == "Yes":
+            if graded == True:
+                not_graded_filter = wait.until(EC.presence_of_element_located((By.XPATH, id_2)))
                 not_graded_filter.click()
             else:
-                graded_filter = wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="x-refine__group_1__0"]/ul/li[1]/div/a/div/span/input')))
+                graded_filter = wait.until(EC.presence_of_element_located((By.XPATH, id_1)))
                 graded_filter.click()
-        
-        if graded == False:
-            text_box = wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="x-refine__group_1__0"]/ul/li[1]/div/a/div/div/div/span[1]')))
-            if text_box.text == "No":
-                graded_filter = wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="x-refine__group_1__0"]/ul/li[1]/div/a/div/span/input')))
+        else:
+            if graded == True:
+                graded_filter = wait.until(EC.presence_of_element_located((By.XPATH, id_1)))
                 graded_filter.click()
             else:
-                not_graded_filter = wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="x-refine__group_1__0"]/ul/li[2]/div/a/div/span/input')))
+                not_graded_filter = wait.until(EC.presence_of_element_located((By.XPATH, id_2)))
                 not_graded_filter.click()
 
         # Find Listings
