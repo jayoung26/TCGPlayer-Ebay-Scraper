@@ -2470,3 +2470,175 @@ JavaScript warning: https://pagead2.googlesyndication.com/bg/PB10NKlwsoe7CUL7Hly
 
 ###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
 
+1738110211234	geckodriver	INFO	Listening on 127.0.0.1:50240
+1738110214279	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50241" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\duran\\AppData\\Local\\Temp\\rust_mozprofileoM4vS9"
+1738110503269	geckodriver	INFO	Listening on 127.0.0.1:50354
+1738110506318	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50355" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\duran\\AppData\\Local\\Temp\\rust_mozprofile3y0itU"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1738110506628	Marionette	INFO	Marionette enabled
+1738110506710	Marionette	INFO	Listening on port 50364
+WebDriver BiDi listening on ws://127.0.0.1:50355
+Read port: 50364
+1738110506872	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50355/devtools/browser/134a5a06-e7ed-45ea-8a3d-e941bafca8f4
+1738110511470	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://gum.criteo.com/syncframe?topUrl=www.ebay.com&origin=onetag#{%22bundle%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22cw%22:true,%22optout%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22origin%22:%22onetag%22,%22tld%22:%22ebay.com%22,%22topUrl%22:%22www.ebay.com%22,%22version%22:%225_31_1%22,%22ifa%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22lsw%22:true,%22pm%22:0}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?topUrl=www.ebay.com&origin=onetag#{%22bundle%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22cw%22:true,%22optout%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22origin%22:%22onetag%22,%22tld%22:%22ebay.com%22,%22topUrl%22:%22www.ebay.com%22,%22version%22:%225_31_1%22,%22ifa%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22lsw%22:true,%22pm%22:0}:13:3137
+r/<@https://gum.criteo.com/syncframe?topUrl=www.ebay.com&origin=onetag#{%22bundle%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22cw%22:true,%22optout%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22origin%22:%22onetag%22,%22tld%22:%22ebay.com%22,%22topUrl%22:%22www.ebay.com%22,%22version%22:%225_31_1%22,%22ifa%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22lsw%22:true,%22pm%22:0}:13:3642
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/9u0_CCk4fNWcCiUGkaZqNK0yn2X7d0V3tVksi4L_-zg.js line 2 > eval line 1990 > eval line 1 > eval line 1 > eval, line 1: Script terminated by timeout at:
+A@https://pagead2.googlesyndication.com/bg/9u0_CCk4fNWcCiUGkaZqNK0yn2X7d0V3tVksi4L_-zg.js line 2 > eval line 1990 > eval line 1 > eval line 1 > eval:1:24
+@https://pagead2.googlesyndication.com/bg/9u0_CCk4fNWcCiUGkaZqNK0yn2X7d0V3tVksi4L_-zg.js line 2 > eval line 1990 > eval line 1 > eval line 1 > eval:1:47
+JY@https://pagead2.googlesyndication.com/bg/9u0_CCk4fNWcCiUGkaZqNK0yn2X7d0V3tVksi4L_-zg.js line 2 > eval line 1990 > eval line 1 > eval line 1 > eval:1:245
+E5@https://pagead2.googlesyndication.com/bg/9u0_CCk4fNWcCiUGkaZqNK0yn2X7d0V3tVksi4L_-zg.js line 2 > eval line 1990 > eval line 1 > eval line 1 > eval:1:43
+@https://pagead2.googlesyndication.com/bg/9u0_CCk4fNWcCiUGkaZqNK0yn2X7d0V3tVksi4L_-zg.js line 2 > eval:1990:51461
+x4@https://pagead2.googlesyndication.com/bg/9u0_CCk4fNWcCiUGkaZqNK0yn2X7d0V3tVksi4L_-zg.js line 2 > eval:1990:33789
+Kb@https://pagead2.googlesyndication.com/bg/9u0_CCk4fNWcCiUGkaZqNK0yn2X7d0V3tVksi4L_-zg.js line 2 > eval:1990:6466
+fb@https://pagead2.googlesyndication.com/bg/9u0_CCk4fNWcCiUGkaZqNK0yn2X7d0V3tVksi4L_-zg.js line 2 > eval:1990:15885
+Kb/<@https://pagead2.googlesyndication.com/bg/9u0_CCk4fNWcCiUGkaZqNK0yn2X7d0V3tVksi4L_-zg.js line 2 > eval:1990:6549
+wm</<@https://pagead2.googlesyndication.com/bg/9u0_CCk4fNWcCiUGkaZqNK0yn2X7d0V3tVksi4L_-zg.js line 2 > eval:1990:48892
+
+1738110512688	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/9u0_CCk4fNWcCiUGkaZqNK0yn2X7d0V3tVksi4L_-zg.js line 2 > eval line 7581 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://ir.ebaystatic.com/cr/v/c01/b8998db5-443b-4561-afdc-3c446092a58c.min.js, line 16: Script terminated by timeout at:
+_getNodeLink@https://ir.ebaystatic.com/cr/v/c01/b8998db5-443b-4561-afdc-3c446092a58c.min.js:16:174772
+_getElementDetails@https://ir.ebaystatic.com/cr/v/c01/b8998db5-443b-4561-afdc-3c446092a58c.min.js:16:172410
+flushBeforeExit@https://ir.ebaystatic.com/cr/v/c01/b8998db5-443b-4561-afdc-3c446092a58c.min.js:16:161979
+e.exports/e.eaTrack/<@https://ir.ebaystatic.com/cr/v/c01/b8998db5-443b-4561-afdc-3c446092a58c.min.js:22:26175
+
+1738110520227	Marionette	INFO	Stopped listening on port 50364
+Dynamically enable window occlusion 1
+1738110527887	geckodriver	INFO	Listening on 127.0.0.1:50477
+1738110530924	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50478" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\duran\\AppData\\Local\\Temp\\rust_mozprofileERoMMQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1738110531213	Marionette	INFO	Marionette enabled
+1738110531296	Marionette	INFO	Listening on port 50485
+WebDriver BiDi listening on ws://127.0.0.1:50478
+Read port: 50485
+1738110531452	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50478/devtools/browser/19987630-6504-486b-8826-772b8f351a44
+JavaScript warning: https://pagead2.googlesyndication.com/bg/9u0_CCk4fNWcCiUGkaZqNK0yn2X7d0V3tVksi4L_-zg.js line 2 > eval line 5106 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js, line 264: Script terminated by timeout at:
+Np.prototype.oa@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:264:1028
+Fp.prototype.pa@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:263:1623
+Go@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:249:473
+Ho/a<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:250:101
+Ho@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:250:38
+so@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:251:713
+wo/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:245:1137
+M/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:91:480
+L/this.Fd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:888
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+n.Fd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:83:903
+cd.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:89:1293
+uc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:218
+n.Fd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+n.Fd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:83:903
+cd.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:89:1293
+uc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:218
+n.Fd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+n.Fd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:83:903
+cd.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:89:1293
+uc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:218
+n.Fd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+n.Fd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:83:903
+cd.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:89:1293
+uc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:218
+n.Fd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+gf/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:102:778
+L/this.Fd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:888
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+M/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:91:473
+L/this.Fd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:888
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+n.Fd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+go/</h/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:239:1969
+Xa@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:49:339
+Ua.prototype.flush@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:49:147
+Wa@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:48:483
+ih/c/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:131:292
+uc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:218
+n.Fd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+qg/</</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:121:515
+Sa.prototype.Ub/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:48:315
+qg/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:121:524
+uc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:218
+n.Fd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+qg/</</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:121:515
+Sa.prototype.Ub/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:48:315
+qg/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:121:524
+uc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:218
+n.Fd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+h@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:93:477
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/9u0_CCk4fNWcCiUGkaZqNK0yn2X7d0V3tVksi4L_-zg.js line 2 > eval line 3755 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1738110551006	Marionette	INFO	Stopped listening on port 50485
+JavaScript warning: https://gum.criteo.com/syncframe?topUrl=www.ebay.com&origin=onetag#{%22bundle%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22cw%22:true,%22optout%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22origin%22:%22onetag%22,%22tld%22:%22ebay.com%22,%22topUrl%22:%22www.ebay.com%22,%22version%22:%225_31_1%22,%22ifa%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22lsw%22:true,%22pm%22:0}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?topUrl=www.ebay.com&origin=onetag#{%22bundle%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22cw%22:true,%22optout%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22origin%22:%22onetag%22,%22tld%22:%22ebay.com%22,%22topUrl%22:%22www.ebay.com%22,%22version%22:%225_31_1%22,%22ifa%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22lsw%22:true,%22pm%22:0}:13:3137
+r/<@https://gum.criteo.com/syncframe?topUrl=www.ebay.com&origin=onetag#{%22bundle%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22cw%22:true,%22optout%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22origin%22:%22onetag%22,%22tld%22:%22ebay.com%22,%22topUrl%22:%22www.ebay.com%22,%22version%22:%225_31_1%22,%22ifa%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22lsw%22:true,%22pm%22:0}:13:3642
+
+JavaScript warning: https://ir.ebaystatic.com/rs/c/search-page-large-WEPqTK8o.js, line 282: Script terminated by timeout at:
+g@https://ir.ebaystatic.com/rs/c/search-page-large-WEPqTK8o.js:282:4199
+n@https://ir.ebaystatic.com/rs/c/search-page-large-WEPqTK8o.js:282:4361
+
+Dynamically enable window occlusion 1
+1738111003942	geckodriver	INFO	Listening on 127.0.0.1:52695
+1738111006999	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52696" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\duran\\AppData\\Local\\Temp\\rust_mozprofileBx4iW0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1738111007339	Marionette	INFO	Marionette enabled
+1738111007421	Marionette	INFO	Listening on port 52709
+WebDriver BiDi listening on ws://127.0.0.1:52696
+Read port: 52709
+1738111007594	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52696/devtools/browser/b67641c3-2581-49d7-b086-c24ce055e83b
+1738111012832	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/9u0_CCk4fNWcCiUGkaZqNK0yn2X7d0V3tVksi4L_-zg.js line 2 > eval line 3874 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1738111027054	Marionette	INFO	Stopped listening on port 52709
+JavaScript warning: https://gum.criteo.com/syncframe?topUrl=www.ebay.com&origin=onetag#{%22bundle%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22cw%22:true,%22optout%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22origin%22:%22onetag%22,%22tld%22:%22ebay.com%22,%22topUrl%22:%22www.ebay.com%22,%22version%22:%225_31_1%22,%22ifa%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22lsw%22:true,%22pm%22:0}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?topUrl=www.ebay.com&origin=onetag#{%22bundle%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22cw%22:true,%22optout%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22origin%22:%22onetag%22,%22tld%22:%22ebay.com%22,%22topUrl%22:%22www.ebay.com%22,%22version%22:%225_31_1%22,%22ifa%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22lsw%22:true,%22pm%22:0}:13:3137
+r/<@https://gum.criteo.com/syncframe?topUrl=www.ebay.com&origin=onetag#{%22bundle%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22cw%22:true,%22optout%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22origin%22:%22onetag%22,%22tld%22:%22ebay.com%22,%22topUrl%22:%22www.ebay.com%22,%22version%22:%225_31_1%22,%22ifa%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22lsw%22:true,%22pm%22:0}:13:3642
+
+Dynamically enable window occlusion 1
+1738111043435	geckodriver	INFO	Listening on 127.0.0.1:52859
+1738111046470	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52860" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\duran\\AppData\\Local\\Temp\\rust_mozprofilez1AG0I"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1738111046813	Marionette	INFO	Marionette enabled
+1738111046907	Marionette	INFO	Listening on port 52873
+WebDriver BiDi listening on ws://127.0.0.1:52860
+Read port: 52873
+1738111047096	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52860/devtools/browser/96b937dc-c234-429d-b59c-0db034a807bd
+JavaScript error: https://s.pinimg.com/ct/core.js, line 1: uncaught exception: undefined
+1738111053121	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/9u0_CCk4fNWcCiUGkaZqNK0yn2X7d0V3tVksi4L_-zg.js line 2 > eval line 4734 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1738111067312	Marionette	INFO	Stopped listening on port 52873
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js, line 13: Script terminated by timeout at:
+C@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:13:325
+h@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:93:449
+
+Dynamically enable window occlusion 1

@@ -7,6 +7,7 @@ from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.firefox.options import Options as FirefoxOptions
 import re
 import time
 
@@ -19,7 +20,9 @@ class ScraperFunctions:
 
     def singles_sealed_dataframe(url, wait_time, set):
         # Initialize the WebDriver
-        driver = webdriver.Firefox() #driver_path
+        firefox_options = FirefoxOptions()
+        firefox_options.add_argument("--headless")
+        driver = webdriver.Firefox(options= firefox_options) #driver_path
         driver.get(url)
 
         # Wait for the table to load (adjust the selector)
@@ -140,7 +143,10 @@ class ScraperFunctions:
         data = []
 
         for set_ in sets_:
-            # Initialize the WebDriver
+            # Initialize the WebDriverfirefox_options = FirefoxOptions()
+            firefox_options = FirefoxOptions()
+            firefox_options.add_argument("--headless")
+            driver = webdriver.Firefox(options= firefox_options)
             driver = webdriver.Firefox() #driver_path
             driver.get(urls_[set_])
 
@@ -189,6 +195,9 @@ class ScraperFunctions:
     def ebay_scraper(card_name, sold = False, graded = False):
 
         # Initialize the WebDriver
+        firefox_options = FirefoxOptions()
+        firefox_options.add_argument("--headless")
+        driver = webdriver.Firefox(options= firefox_options)
         driver = webdriver.Firefox() #driver_path
         driver.get('https://www.ebay.com/')
 

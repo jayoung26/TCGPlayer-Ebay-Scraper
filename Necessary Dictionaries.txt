@@ -12,9 +12,11 @@ pull_rates = {'Scarlet & Violet' : {'Double Rare': 0.1376, 'Ultra Rare': 0.0657,
         'Twilight Masquerade' : {'Double Rare' : 0.1693, 'ACE SPEC Rare' : 0.0506, 'Ultra Rare' : 0.0661, 'Illustration Rare' : 0.0773, 'Special Illustration Rare' : 0.0117, 'Hyper Rare' : 0.0068}, 
         'Shrouded Fable' : {'Double Rare' : 0.1667, 'ACE SPEC Rare' : 0.05, 'Ultra Rare' : 0.06667, 'Illustration Rare' : 0.08333, 'Special Illustration Rare' : 0.01493, 'Hyper Rare' : 0.00694}, 
         'Stellar Crown' : {'Double Rare' : 0.169, 'ACE SPEC Rare' : 0.0494, 'Ultra Rare' : 0.0675, 'Illustration Rare' : 0.0779, 'Special Illustration Rare' : 0.0111, 'Hyper Rare' : 0.0073}, 
-        'Surging Sparks' : {'Double Rare' : 0.1694, 'ACE SPEC Rare' : 0.0503, 'Ultra Rare' : 0.0674, 'Illustration Rare' : 0.0767, 'Special Illustration Rare' : 0.0115, 'Hyper Rare' : 0.0053}}
+        'Surging Sparks' : {'Double Rare' : 0.1694, 'ACE SPEC Rare' : 0.0503, 'Ultra Rare' : 0.0674, 'Illustration Rare' : 0.0767, 'Special Illustration Rare' : 0.0115, 'Hyper Rare' : 0.0053},
+        'Journey Together' : {'Double Rare' : 0.2029, 'Ultra Rare' : 0.0654, 'Illustration Rare' : 0.085, 'Special Illustration Rare' : 0.0116, 'Hyper Rare' : 0.0073},
+        'Destined Rivals' : {'Double Rare' : 0.1983, 'Ultra Rare' : 0.0639, 'Illustration Rare' : 0.0829, 'Special Illustration Rare' : 0.0106, 'Hyper Rare' : 0.0067}}
 
-sets = ['Scarlet & Violet', 'Paldea Evolved', 'Obsidian Flames', '151', 'Paradox Rift' ,'Paldean Fates' ,'Temporal Forces', 'Twilight Masquerade', 'Shrouded Fable', 'Stellar Crown', 'Surging Sparks']
+sets = ['Scarlet & Violet', 'Paldea Evolved', 'Obsidian Flames', '151', 'Paradox Rift' ,'Paldean Fates' ,'Temporal Forces', 'Twilight Masquerade', 'Shrouded Fable', 'Stellar Crown', 'Surging Sparks', 'Journey Together', 'Destined Rivals']
 
 urls = {'Scarlet & Violet' : 'https://www.tcgplayer.com/categories/trading-and-collectible-card-games/pokemon/price-guides/sv01-scarlet-and-violet-base-set',
         'Paldea Evolved' : 'https://www.tcgplayer.com/categories/trading-and-collectible-card-games/pokemon/price-guides/sv02-paldea-evolved', 
@@ -26,4 +28,6 @@ urls = {'Scarlet & Violet' : 'https://www.tcgplayer.com/categories/trading-and-c
         'Twilight Masquerade' : 'https://www.tcgplayer.com/categories/trading-and-collectible-card-games/pokemon/price-guides/sv06-twilight-masquerade', 
         'Shrouded Fable' : 'https://www.tcgplayer.com/categories/trading-and-collectible-card-games/pokemon/price-guides/sv-shrouded-fable' , 
         'Stellar Crown' : 'https://www.tcgplayer.com/categories/trading-and-collectible-card-games/pokemon/price-guides/sv07-stellar-crown', 
-        'Surging Sparks' : 'https://www.tcgplayer.com/categories/trading-and-collectible-card-games/pokemon/price-guides/sv08-surging-sparks'}
+        'Surging Sparks' : 'https://www.tcgplayer.com/categories/trading-and-collectible-card-games/pokemon/price-guides/sv08-surging-sparks',
+        'Journey Together' : 'https://www.tcgplayer.com/categories/trading-and-collectible-card-games/pokemon/price-guides/sv09-journey-together',
+        'Destined Rivals' : 'https://www.tcgplayer.com/categories/trading-and-collectible-card-games/pokemon/price-guides/sv10-destined-rivals'}
